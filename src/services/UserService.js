@@ -4,7 +4,7 @@ export const formatCurrency = (montant, devise = "EUR", symbole = "€") => {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2
   }).format(montant);
-  
+
   // Position du symbole selon la devise
   if (devise === "USD" || devise === "CAD") {
     return `${symbole}${formattedNumber}`; // $1,234.56
@@ -190,12 +190,12 @@ const initialUsers = [
     agence: "Agence Paris Opéra - 29 Boulevard des Capucines, 75009 Paris",
     dateOuverture: "15/11/2015",
     statut: "active",
-  
+
     dateAttestation: "05/12/2018",
     notification: null,
-    
+
     dateAttestation: "05/12/2015",
-   
+
     transactions: [
       { date: '09/12/2019', libelle: 'Virement Notaire - Succession', debit: '', credit: '1500000.00' },
       { date: '06/12/2019', libelle: 'Virement entrant', debit: '', credit: '250000.00' },
@@ -278,12 +278,12 @@ const initialUsers = [
     agence: "Agence Paris Opéra - 29 Boulevard des Capucines, 75009 Paris",
     dateOuverture: "15/11/2015",
     statut: "active",
-  
+
     dateAttestation: "05/12/2018",
     notification: null,
-    
+
     dateAttestation: "05/12/2015",
-   
+
     transactions: [
       { date: '09/12/2019', libelle: 'Virement Notaire - Succession', debit: '', credit: '1500000.00' },
       { date: '06/12/2019', libelle: 'Virement entrant', debit: '', credit: '250000.00' },
@@ -506,10 +506,10 @@ const initialUsers = [
     ],
     conseiller: {
       nom: 'Balmond Andrée',
-     
+
       email: 'balmond1643@gmail.com',
+    },
   },
-},
   {
     code: "07885513461",
     motDePasse: "260823",
@@ -844,8 +844,8 @@ const initialUsers = [
       { date: '20/05/2019', libelle: 'Restaurant Le Grand Véfour', debit: '320.75', credit: '' }
     ],
     relevesMensuels: [
-      { mois: 'mai', annee: '2019', dateGeneration: '01/06/2019'},
-      { mois: 'avril', annee: '2019', dateGeneration: '01/05/2019'},
+      { mois: 'mai', annee: '2019', dateGeneration: '01/06/2019' },
+      { mois: 'avril', annee: '2019', dateGeneration: '01/05/2019' },
       { mois: 'mars', annee: '2019', dateGeneration: '01/04/2019' },
       { mois: 'février', annee: '2019', dateGeneration: '01/03/2019' }
     ],
@@ -938,7 +938,7 @@ const initialUsers = [
     motDePasse: "333333",
     nom: "Thomas Tylera",
     email: "gauthierjeanpatrick05@email.com",
-      livretA: 50.00,
+    livretA: 50.00,
     assurance: 4000.00,
     epargne: 50000.25,
     telephone: "+33 6 44 70  45 76",
@@ -966,7 +966,7 @@ const initialUsers = [
       { date: '07/11/2021', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/11/2021', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/11/2021', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/11/2020',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/11/2020', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2020', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/10/2020', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/10/2020', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -977,8 +977,8 @@ const initialUsers = [
       { date: '02/07/2018', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'mai', annee: '2022', dateGeneration: '01/06/2022'},
-      { mois: 'avril', annee: '2022', dateGeneration: '01/05/2022'},
+      { mois: 'mai', annee: '2022', dateGeneration: '01/06/2022' },
+      { mois: 'avril', annee: '2022', dateGeneration: '01/05/2022' },
       { mois: 'mars', annee: '2022', dateGeneration: '01/04/2022' },
       { mois: 'février', annee: '2022', dateGeneration: '01/03/2022' }
     ],
@@ -1013,7 +1013,7 @@ const initialUsers = [
     motDePasse: "260824",
     nom: "Marie Sylvia",
     email: "mariesylvia688@gmail.com",
-      livretA: 50.00,
+    livretA: 50.00,
     assurance: 4000.00,
     epargne: 50000.25,
     telephone: "+33 6 44 67 61 30",
@@ -1027,7 +1027,7 @@ const initialUsers = [
     agence: "Agence Paris Opéra - 29 Boulevard des Capucines, 65000 Tarbes",
     dateOuverture: "15/03/2018",
     statut: "ative",
-    
+
     dateAttestation: "25/03/2018",
     notification: null,
     transactions: [
@@ -1041,7 +1041,7 @@ const initialUsers = [
       { date: '07/07/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/06/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/05/2024',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/05/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/04/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/03/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/02/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -1052,8 +1052,8 @@ const initialUsers = [
       { date: '02/07/2021', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'Septembre', annee: '2024', dateGeneration: '01/10/2024'},
-      { mois: 'Aout', annee: '2024', dateGeneration: '01/09/2024'},
+      { mois: 'Septembre', annee: '2024', dateGeneration: '01/10/2024' },
+      { mois: 'Aout', annee: '2024', dateGeneration: '01/09/2024' },
       { mois: 'Juillet', annee: '2024', dateGeneration: '01/08/2024' },
       { mois: 'Juin', annee: '2024', dateGeneration: '01/07/2024' }
     ],
@@ -1070,7 +1070,7 @@ const initialUsers = [
     ],
     conseiller: {
       nom: 'Stramessi Paolo',
-      
+
       email: 'stramessiPaolo@gmail.com',
     },
     notaire: {
@@ -1082,13 +1082,13 @@ const initialUsers = [
       telephone: "+33 6 44 56 45 67",
       email: "Douchet.bernard@notaire-paris.fr"
     }
-    },
+  },
   {
     code: "07020304444",
     motDePasse: "260825",
     nom: "Derkani Nephael",
     email: "Derkaninephael8@gmail.com",
-      livretA: 50.00,
+    livretA: 50.00,
     assurance: 4000.00,
     epargne: 5000.25,
     telephone: "+33 7 56 89 88 29",
@@ -1116,7 +1116,7 @@ const initialUsers = [
       { date: '07/07/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/06/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/05/2024',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/05/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/04/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/03/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/02/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -1127,8 +1127,8 @@ const initialUsers = [
       { date: '02/07/2021', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'Septembre', annee: '2024', dateGeneration: '01/10/2024'},
-      { mois: 'Aout', annee: '2024', dateGeneration: '01/09/2024'},
+      { mois: 'Septembre', annee: '2024', dateGeneration: '01/10/2024' },
+      { mois: 'Aout', annee: '2024', dateGeneration: '01/09/2024' },
       { mois: 'Juillet', annee: '2024', dateGeneration: '01/08/2024' },
       { mois: 'Juin', annee: '2024', dateGeneration: '01/07/2024' }
     ],
@@ -1145,7 +1145,7 @@ const initialUsers = [
     ],
     conseiller: {
       nom: 'Jean Paul Lucas',
-      
+
       email: 'jeanpaul23@gmail.com',
     },
     notaire: {
@@ -1163,7 +1163,7 @@ const initialUsers = [
     motDePasse: "260826",
     nom: "Daniela Lopez",
     email: "danielalopez49@gmail.com",
-      livretA: 50.00,
+    livretA: 50.00,
     assurance: 4000.00,
     epargne: 5000.25,
     telephone: "+33 7 51 25 56 52",
@@ -1191,7 +1191,7 @@ const initialUsers = [
       { date: '07/07/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/06/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/05/2022',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/05/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/04/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/03/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/02/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -1202,8 +1202,8 @@ const initialUsers = [
       { date: '02/07/2019', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'Septembre', annee: '2022', dateGeneration: '01/10/2022'},
-      { mois: 'Aout', annee: '2022', dateGeneration: '01/09/2022'},
+      { mois: 'Septembre', annee: '2022', dateGeneration: '01/10/2022' },
+      { mois: 'Aout', annee: '2022', dateGeneration: '01/09/2022' },
       { mois: 'Juillet', annee: '2022', dateGeneration: '01/08/2022' },
       { mois: 'Juin', annee: '2022', dateGeneration: '01/07/2022' }
     ],
@@ -1220,7 +1220,7 @@ const initialUsers = [
     ],
     conseiller: {
       nom: 'Jean Paul Lucas',
-      
+
       email: 'jeanpaul23@gmail.com',
     },
   },
@@ -1229,7 +1229,7 @@ const initialUsers = [
     motDePasse: "260826",
     nom: "Gauthier Sarah",
     email: "gauthiersarah064@gmail.com",
-      livretA: 50.00,
+    livretA: 50.00,
     assurance: 4000.00,
     epargne: 5000.25,
     telephone: "+33 6 44 66 05 17",
@@ -1257,7 +1257,7 @@ const initialUsers = [
       { date: '07/07/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/06/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/05/2022',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/05/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/04/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/03/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/02/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -1268,8 +1268,8 @@ const initialUsers = [
       { date: '02/07/2019', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'Septembre', annee: '2022', dateGeneration: '01/10/2022'},
-      { mois: 'Aout', annee: '2022', dateGeneration: '01/09/2022'},
+      { mois: 'Septembre', annee: '2022', dateGeneration: '01/10/2022' },
+      { mois: 'Aout', annee: '2022', dateGeneration: '01/09/2022' },
       { mois: 'Juillet', annee: '2022', dateGeneration: '01/08/2022' },
       { mois: 'Juin', annee: '2022', dateGeneration: '01/07/2022' }
     ],
@@ -1286,7 +1286,7 @@ const initialUsers = [
     ],
     conseiller: {
       nom: 'Jean Paul Lucas',
-      
+
       email: 'jeanpaul23@gmail.com',
     },
   },
@@ -1295,7 +1295,7 @@ const initialUsers = [
     motDePasse: "260826",
     nom: "Cioch Lèon Franck",
     email: "Ciochlèonfranck@gmail.com",
-      livretA: 50.00,
+    livretA: 50.00,
     assurance: 4000.00,
     epargne: 5000.25,
     telephone: "+33 6 44 66 55 17",
@@ -1323,7 +1323,7 @@ const initialUsers = [
       { date: '07/07/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/06/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/05/2022',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/05/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/04/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/03/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/02/2022', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -1334,8 +1334,8 @@ const initialUsers = [
       { date: '02/07/2019', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'Septembre', annee: '2022', dateGeneration: '01/10/2022'},
-      { mois: 'Aout', annee: '2022', dateGeneration: '01/09/2022'},
+      { mois: 'Septembre', annee: '2022', dateGeneration: '01/10/2022' },
+      { mois: 'Aout', annee: '2022', dateGeneration: '01/09/2022' },
       { mois: 'Juillet', annee: '2022', dateGeneration: '01/08/2022' },
       { mois: 'Juin', annee: '2022', dateGeneration: '01/07/2022' }
     ],
@@ -1352,7 +1352,7 @@ const initialUsers = [
     ],
     conseiller: {
       nom: 'Jean Paul Lucas',
-      
+
       email: 'jeanpaul23@gmail.com',
     },
   },
@@ -1361,10 +1361,10 @@ const initialUsers = [
     motDePasse: "260825",
     nom: "fedotowsky Ali Manno",
     email: "alimannofedotowsky@gmail.com",
-      livretA: 50.00,
+    livretA: 50.00,
     assurance: 4000.00,
     epargne: 5000.25,
-    
+
     adresse: "15 Rue de la Paix, 65000 Tarbes",
     solde: 948742.26,
     devise: "EUR",
@@ -1389,7 +1389,7 @@ const initialUsers = [
       { date: '07/07/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/06/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/05/2023',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/05/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/04/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/03/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/02/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -1400,8 +1400,8 @@ const initialUsers = [
       { date: '02/07/2020', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'Septembre', annee: '2023', dateGeneration: '01/10/2023'},
-      { mois: 'Aout', annee: '2023', dateGeneration: '01/09/2023'},
+      { mois: 'Septembre', annee: '2023', dateGeneration: '01/10/2023' },
+      { mois: 'Aout', annee: '2023', dateGeneration: '01/09/2023' },
       { mois: 'Juillet', annee: '2023', dateGeneration: '01/08/2023' },
       { mois: 'Juin', annee: '2023', dateGeneration: '01/07/2023' }
     ],
@@ -1420,17 +1420,17 @@ const initialUsers = [
       nom: 'Jean Marke',
       email: 'jmarke654@gmail.com',
     },
-    
+
   },
   {
     code: "07020304066",
     motDePasse: "260825",
     nom: "Lavoie Maryse",
     email: "maryse.lavoie@gmail.com",
-      livretA: 50.00,
+    livretA: 50.00,
     assurance: 4000.00,
     epargne: 5000.25,
-    
+
     adresse: "15 Rue de la Paix, 14000 Caen",
     solde: 483564.00,
     devise: "EUR",
@@ -1455,7 +1455,7 @@ const initialUsers = [
       { date: '07/07/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/06/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/05/2023',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/05/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/04/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/03/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/02/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -1466,8 +1466,8 @@ const initialUsers = [
       { date: '02/07/2020', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'Septembre', annee: '2023', dateGeneration: '01/10/2023'},
-      { mois: 'Aout', annee: '2023', dateGeneration: '01/09/2023'},
+      { mois: 'Septembre', annee: '2023', dateGeneration: '01/10/2023' },
+      { mois: 'Aout', annee: '2023', dateGeneration: '01/09/2023' },
       { mois: 'Juillet', annee: '2023', dateGeneration: '01/08/2023' },
       { mois: 'Juin', annee: '2023', dateGeneration: '01/07/2023' }
     ],
@@ -1492,10 +1492,10 @@ const initialUsers = [
     motDePasse: "260826",
     nom: "COURNOT EMILIE",
     email: "emilie.cournot@gmail.com",
-      livretA: 50.00,
+    livretA: 50.00,
     assurance: 4000.00,
     epargne: 5000.25,
-    
+
     adresse: "15 Rue de la Paix, 14000 Caen",
     solde: 5000000.00,
     devise: "EUR",
@@ -1508,7 +1508,7 @@ const initialUsers = [
     statut: "bloqué",
     dateBlocage: "13/10/2026",
     dateAttestation: "25/03/2018",
-    notification: "Votre compte est bloqué,veillez vous acquitter des frais de débloccage de 5000 EUR avant toute opération bancaire associer à ce compte. Merci de votre compréhension. ",
+    notification: "Votre compte est bloqué,veillez vous acquitter des frais de débloccage de 8000 EUR avant toute opération bancaire associer à ce compte. Merci de votre compréhension. ",
     transactions: [
       { date: '24/06/2026', libelle: 'Virement entrant', debit: '', credit: '5000000.00' },
       { date: '10/06/2022', libelle: 'Virement Notaire - Succession', debit: '', credit: '15000.00' },
@@ -1520,7 +1520,7 @@ const initialUsers = [
       { date: '07/07/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/06/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/05/2023',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/05/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/04/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/03/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/02/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -1531,8 +1531,8 @@ const initialUsers = [
       { date: '02/07/2020', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'Septembre', annee: '2023', dateGeneration: '01/10/2023'},
-      { mois: 'Aout', annee: '2023', dateGeneration: '01/09/2023'},
+      { mois: 'Septembre', annee: '2023', dateGeneration: '01/10/2023' },
+      { mois: 'Aout', annee: '2023', dateGeneration: '01/09/2023' },
       { mois: 'Juillet', annee: '2023', dateGeneration: '01/08/2023' },
       { mois: 'Juin', annee: '2023', dateGeneration: '01/07/2023' }
     ],
@@ -1557,7 +1557,7 @@ const initialUsers = [
     motDePasse: "260826",
     nom: "STRUCHLER PATRICIA",
     email: "struchler.patricia@gmail.com",
-      livretA: 50.00,
+    livretA: 50.00,
     assurance: 4000.00,
     epargne: 5000.25,
     adresse: "Büyükdere, Yap2 Kredi Plaza, C Blok, Kaet:11, Levente - Istanbul",
@@ -1584,7 +1584,7 @@ const initialUsers = [
       { date: '07/07/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/06/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/05/2023',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/05/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/04/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/03/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/02/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -1595,8 +1595,8 @@ const initialUsers = [
       { date: '02/07/2020', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'Septembre', annee: '2023', dateGeneration: '01/10/2023'},
-      { mois: 'Aout', annee: '2023', dateGeneration: '01/09/2023'},
+      { mois: 'Septembre', annee: '2023', dateGeneration: '01/10/2023' },
+      { mois: 'Aout', annee: '2023', dateGeneration: '01/09/2023' },
       { mois: 'Juillet', annee: '2023', dateGeneration: '01/08/2023' },
       { mois: 'Juin', annee: '2023', dateGeneration: '01/07/2023' }
     ],
@@ -1621,10 +1621,10 @@ const initialUsers = [
     motDePasse: "260825",
     nom: "Stéphanie Debout",
     email: "sdebout@gmail.com",
-      livretA: 50.00,
+    livretA: 50.00,
     assurance: 4000.00,
     epargne: 5000.25,
-    
+
     adresse: "15 Rue de la Paix, 14000 Caen",
     solde: 400000.00,
     devise: "EUR",
@@ -1649,7 +1649,7 @@ const initialUsers = [
       { date: '07/07/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/06/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/05/2023',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/05/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/04/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/03/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/02/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -1660,8 +1660,8 @@ const initialUsers = [
       { date: '02/07/2020', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'Septembre', annee: '2023', dateGeneration: '01/10/2023'},
-      { mois: 'Aout', annee: '2023', dateGeneration: '01/09/2023'},
+      { mois: 'Septembre', annee: '2023', dateGeneration: '01/10/2023' },
+      { mois: 'Aout', annee: '2023', dateGeneration: '01/09/2023' },
       { mois: 'Juillet', annee: '2023', dateGeneration: '01/08/2023' },
       { mois: 'Juin', annee: '2023', dateGeneration: '01/07/2023' }
     ],
@@ -1686,10 +1686,10 @@ const initialUsers = [
     motDePasse: "260826",
     nom: "Roseline Courtois",
     email: "r.courtois@gmail.com",
-      livretA: 50.00,
+    livretA: 50.00,
     assurance: 4000.00,
     epargne: 5000.25,
-    
+
     adresse: "15 Rue de la Paix, 06000 Nice",
     solde: 850000.26,
     devise: "EUR",
@@ -1714,7 +1714,7 @@ const initialUsers = [
       { date: '07/07/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/06/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/05/2023',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/05/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/04/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/03/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/02/2023', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -1725,8 +1725,8 @@ const initialUsers = [
       { date: '02/07/2020', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'Septembre', annee: '2023', dateGeneration: '01/10/2023'},
-      { mois: 'Aout', annee: '2023', dateGeneration: '01/09/2023'},
+      { mois: 'Septembre', annee: '2023', dateGeneration: '01/10/2023' },
+      { mois: 'Aout', annee: '2023', dateGeneration: '01/09/2023' },
       { mois: 'Juillet', annee: '2023', dateGeneration: '01/08/2023' },
       { mois: 'Juin', annee: '2023', dateGeneration: '01/07/2023' }
     ],
@@ -1745,14 +1745,14 @@ const initialUsers = [
       nom: 'Jean Marke',
       email: 'jmarke654@gmail.com',
     },
-    
+
   },
   {
     code: "06020304001",
     motDePasse: "260823",
     nom: "Piero Duvet",
     email: "duvetpiero@gmail.com",
-      livretA: 50.00,
+    livretA: 50.00,
     assurance: 4000.00,
     epargne: 10000.25,
     telephone: "+33 6 44 69 75 47",
@@ -1772,15 +1772,15 @@ const initialUsers = [
     transactions: [
       { date: '10/06/2022', libelle: 'Virement Notaire - Succession', debit: '', credit: '15000.00' },
       { date: '07/10/2024', libelle: 'Frais de gestion compte', debit: '45.00', credit: '' },
-    
+
       { date: '23/10/2025', libelle: 'paiement de frais de déblocage ', debit: '3500.00', credit: '' },
       { date: '10/09/2025', libelle: 'paiement de frais de déblocage', debit: '5000.00', credit: '' },
-      { date: '07/10/2025', libelle: 'paiement de frais de déblocage',debit: '3000.00', statut: 'Effectué' },
+      { date: '07/10/2025', libelle: 'paiement de frais de déblocage', debit: '3000.00', statut: 'Effectué' },
       { date: '05/08/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/07/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/06/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/05/2024',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/05/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/04/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/03/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/02/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -1791,15 +1791,15 @@ const initialUsers = [
       { date: '02/07/2021', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'Octobre', annee: '2025', dateGeneration: '01/10/2025'},
-      { mois: 'Septembre', annee: '2025', dateGeneration: '01/09/2025'},
-    
+      { mois: 'Octobre', annee: '2025', dateGeneration: '01/10/2025' },
+      { mois: 'Septembre', annee: '2025', dateGeneration: '01/09/2025' },
+
     ],
     virements: [
-      { date: '08/10/2025', beneficiaire: 'StartUp Marrakech', montant:'10000', statut: 'Effectué' },
+      { date: '08/10/2025', beneficiaire: 'StartUp Marrakech', montant: '10000', statut: 'Effectué' },
       { date: '10/06/2024', beneficiaire: 'Électricité', montant: -120.00, statut: 'Effectué' },
       { date: '05/06/2024', beneficiaire: 'Jean Martin', montant: -300.00, statut: 'Effectué' },
-      
+
     ],
     depots: [
       { type: 'Dépôt de chèque', date: '01/06/2024', montant: 800.00, icon: '📝' },
@@ -1812,14 +1812,14 @@ const initialUsers = [
       nom: 'Philippe Cassereau',
       telephone: '',
       email: 'PhilippCasereau16340@look.fr',
-    }, 
+    },
   },
   {
     code: "06020304007",
     motDePasse: "260823",
     nom: "Alessandro Rossi",
     email: "alessandrorossi@gmail.com",
-      livretA: 50.00,
+    livretA: 50.00,
     assurance: 4000.00,
     epargne: 10000.25,
     telephone: "+33 6 44 69 75 47",
@@ -1833,7 +1833,7 @@ const initialUsers = [
     agence: "Agence Paris Opéra - 29 Boulevard des Capucines, 65000 Tarbes",
     dateOuverture: "15/03/2018",
     statut: "actif",
-    dateBlocage:null,
+    dateBlocage: null,
     dateAttestation: "25/03/2018",
     notification: "Votre compte a été temporairement bloqué car le propriétaire n'a pas payé les frais de dédouanement français. Nous avons reçu un virement, mais la somme nécessaire pour débloquer le compte s'élève à 45000 €. Une fois cette somme réglée, votre compte sera immédiatement débloqué. Nous vous remercions pour votre compréhension et votre coopération dans cette situation.",
     transactions: [
@@ -1843,13 +1843,13 @@ const initialUsers = [
       { date: '07/10/2024', libelle: 'Frais de gestion compte', debit: '45.00', credit: '' },
       { date: '23/10/2025', libelle: 'paiement de frais de déblocage ', debit: '3500.00', credit: '' },
       { date: '10/09/2025', libelle: 'paiement de frais de déblocage', debit: '5000.00', credit: '' },
-      { date: '07/10/2025', libelle: 'paiement de frais de déblocage',debit: '3000.00', statut: 'Effectué' },
+      { date: '07/10/2025', libelle: 'paiement de frais de déblocage', debit: '3000.00', statut: 'Effectué' },
       { date: '10/06/2022', libelle: 'Virement Notaire - Succession', debit: '', credit: '15000.00' },
       { date: '05/08/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/07/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/06/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/05/2024',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/05/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/04/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/03/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/02/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -1860,15 +1860,15 @@ const initialUsers = [
       { date: '02/07/2021', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'Octobre', annee: '2025', dateGeneration: '01/10/2025'},
-      { mois: 'Septembre', annee: '2025', dateGeneration: '01/09/2025'},
-    
+      { mois: 'Octobre', annee: '2025', dateGeneration: '01/10/2025' },
+      { mois: 'Septembre', annee: '2025', dateGeneration: '01/09/2025' },
+
     ],
     virements: [
-      { date: '08/10/2025', beneficiaire: 'StartUp Marrakech', montant:'10000', statut: 'Effectué' },
+      { date: '08/10/2025', beneficiaire: 'StartUp Marrakech', montant: '10000', statut: 'Effectué' },
       { date: '10/06/2024', beneficiaire: 'Électricité', montant: -120.00, statut: 'Effectué' },
       { date: '05/06/2024', beneficiaire: 'Jean Martin', montant: -300.00, statut: 'Effectué' },
-      
+
     ],
     depots: [
       { type: 'Dépôt de chèque', date: '01/06/2024', montant: 800.00, icon: '📝' },
@@ -1881,14 +1881,14 @@ const initialUsers = [
       nom: 'Philippe Cassereau',
       telephone: '',
       email: 'PhilippCasereau16340@look.fr',
-    }, 
+    },
   },
   {
     code: "07020304000",
     motDePasse: "260823",
     nom: "Alicia leroye",
     email: "cvie652@gmail.com",
-      livretA: 500.00,
+    livretA: 500.00,
     assurance: 4000.00,
     epargne: 10000.25,
     telephone: "+33 6 46 74 39 08",
@@ -1908,15 +1908,15 @@ const initialUsers = [
     transactions: [
       { date: '10/06/2022', libelle: 'Virement Notaire - Succession', debit: '', credit: '15000.00' },
       { date: '07/10/2024', libelle: 'Frais de gestion compte', debit: '45.00', credit: '' },
-    
+
       { date: '23/10/2025', libelle: 'paiement de frais de déblocage ', debit: '3500.00', credit: '' },
       { date: '10/09/2025', libelle: 'paiement de frais de déblocage', debit: '5000.00', credit: '' },
-      { date: '07/10/2025', libelle: 'paiement de frais de déblocage',debit: '3000.00', statut: 'Effectué' },
+      { date: '07/10/2025', libelle: 'paiement de frais de déblocage', debit: '3000.00', statut: 'Effectué' },
       { date: '05/08/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/07/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/10/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/06/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
-      { date: '06/05/2024',beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
+      { date: '06/05/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '07/04/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '05/03/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
       { date: '06/02/2024', beneficiaire: 'Loyer', montant: -950.00, statut: 'Effectué' },
@@ -1927,15 +1927,15 @@ const initialUsers = [
       { date: '02/07/2021', beneficiaire: 'Assurance', montant: -1000.00, statut: 'Effectué' },
     ],
     relevesMensuels: [
-      { mois: 'Octobre', annee: '2025', dateGeneration: '01/10/2025'},
-      { mois: 'Septembre', annee: '2025', dateGeneration: '01/09/2025'},
-    
+      { mois: 'Octobre', annee: '2025', dateGeneration: '01/10/2025' },
+      { mois: 'Septembre', annee: '2025', dateGeneration: '01/09/2025' },
+
     ],
     virements: [
-      { date: '08/10/2025', beneficiaire: 'StartUp Marrakech', montant:'10000', statut: 'Effectué' },
+      { date: '08/10/2025', beneficiaire: 'StartUp Marrakech', montant: '10000', statut: 'Effectué' },
       { date: '10/06/2024', beneficiaire: 'Électricité', montant: -120.00, statut: 'Effectué' },
       { date: '05/06/2024', beneficiaire: 'Jean Martin', montant: -300.00, statut: 'Effectué' },
-      
+
     ],
     depots: [
       { type: 'Dépôt de chèque', date: '01/06/2024', montant: 800.00, icon: '📝' },
@@ -1949,7 +1949,7 @@ const initialUsers = [
       telephone: '',
       email: 'privee005@gmail.com',
     },
-   
+
   },
   {
     code: "22222222222",
@@ -2026,7 +2026,7 @@ const initialUsers = [
     agence: "Agence Nantes - Boulevard Latrille, Nantes",
     dateOuverture: "12/05/2020",
     statut: "actif",
-    
+
     dateAttestation: "06/12/2024",
     notification: null,
     transactions: [
@@ -2072,25 +2072,25 @@ const initialUsers = [
 ];
 
 // ==================== USER SERVICE ====================
-const DATA_VERSION = 7;
+const DATA_VERSION = 5;
 
 const UserService = {
   initializeUsers() {
     const storedVersion = StorageService.get('dataVersion');
     const stored = StorageService.get('bankUsers');
-    
+
     if (storedVersion != DATA_VERSION || !stored) {
       console.log('🔄 Initialisation des données (v' + DATA_VERSION + ')');
       StorageService.set('bankUsers', initialUsers);
       StorageService.set('dataVersion', DATA_VERSION);
       console.log('✅ Données sauvegardées avec localStorage');
-      
+
       StorageService.delete('currentUser');
       console.log('✅ Session effacée - reconnexion requise');
-      
+
       return initialUsers;
     }
-    
+
     return stored;
   },
 
@@ -2098,7 +2098,7 @@ const UserService = {
   verifyLogin(code, motDePasse) {
     // ✅ TOUJOURS récupérer depuis localStorage pour avoir les données à jour
     const users = StorageService.get('bankUsers');
-    
+
     if (!users) {
       console.error('❌ Aucun utilisateur trouvé dans localStorage');
       return {
@@ -2106,9 +2106,9 @@ const UserService = {
         message: "Erreur système - Veuillez rafraîchir la page"
       };
     }
-    
+
     const user = users.find(u => u.code === code);
-    
+
     if (!user) {
       console.log('❌ Utilisateur non trouvé:', code);
       return {
@@ -2116,13 +2116,13 @@ const UserService = {
         message: "Identifiant incorrect"
       };
     }
-    
+
     // ✅ Log pour debug
     console.log('🔍 Vérification connexion:');
     console.log('Code:', code);
     console.log('Mot de passe stocké:', user.motDePasse, 'Type:', typeof user.motDePasse);
     console.log('Mot de passe saisi:', motDePasse, 'Type:', typeof motDePasse);
-    
+
     // ✅ Comparaison stricte avec conversion en String
     if (String(user.motDePasse) !== String(motDePasse)) {
       console.log('❌ Mot de passe incorrect');
@@ -2131,7 +2131,7 @@ const UserService = {
         message: "Mot de passe incorrect"
       };
     }
-    
+
     console.log('✅ Connexion réussie pour:', user.nom);
     return {
       success: true,
@@ -2142,18 +2142,18 @@ const UserService = {
   checkCurrentUserValidity() {
     try {
       const currentUser = StorageService.get('currentUser');
-      
+
       if (!currentUser) {
         return { valid: false };
       }
 
       // ✅ Récupérer depuis localStorage pour avoir les données à jour
       const users = StorageService.get('bankUsers');
-      
+
       if (!users) {
         StorageService.delete('currentUser');
-        return { 
-          valid: false, 
+        return {
+          valid: false,
           shouldLogout: true,
           message: "Session expirée. Veuillez vous reconnecter."
         };
@@ -2163,14 +2163,14 @@ const UserService = {
 
       if (!userStillExists) {
         StorageService.delete('currentUser');
-        return { 
-          valid: false, 
+        return {
+          valid: false,
           shouldLogout: true,
           message: "Votre session a expiré. Veuillez vous reconnecter."
         };
       }
 
-      return { 
+      return {
         valid: true,
         user: { ...userStillExists }
       };
@@ -2183,23 +2183,23 @@ const UserService = {
 
   loginUser(code) {
     const users = StorageService.get('bankUsers');
-    
+
     if (!users) {
       return {
         success: false,
         message: "Erreur système"
       };
     }
-    
+
     const user = users.find(u => u.code === code);
-    
+
     if (user) {
       return {
         success: true,
         user: { ...user }
       };
     }
-    
+
     return {
       success: false,
       message: "Identifiant incorrect"
@@ -2213,24 +2213,24 @@ const UserService = {
 
   updateUserBalance(code, newBalance) {
     const users = StorageService.get('bankUsers');
-    
+
     if (!users) return false;
-    
+
     const userIndex = users.findIndex(u => u.code === code);
-    
+
     if (userIndex !== -1) {
       users[userIndex].solde = newBalance;
       StorageService.set('bankUsers', users);
-      
+
       const currentUser = StorageService.get('currentUser');
       if (currentUser && currentUser.code === code) {
         currentUser.solde = newBalance;
         StorageService.set('currentUser', currentUser);
       }
-      
+
       return true;
     }
-    
+
     return false;
   }
 };
