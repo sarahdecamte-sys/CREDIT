@@ -437,7 +437,7 @@ const initialUsers = [
     code: "07094860451",
     motDePasse: "260823",
     nom: "Rebecca Rogers",
-    email: "rebecca.rogers@gmail.com",
+    email: "rebeccarogers100@gmail.com",
     livretA: 50.00,
     assurance: 4000.00,
     epargne: 50000.25,
