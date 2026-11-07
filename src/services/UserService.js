@@ -537,10 +537,10 @@ const initialUsers = [
     bic: "AGRIFRPPXXX",
     agence: "Agence Paris Opéra - 29 Boulevard des Capucines, 75009 Paris",
     dateOuverture: "15/11/2018",
-    statut: "bloqué",
-    dateBlocage: "15/08/2024",
+    statut: "actif",
+    dateBlocage: null,
     dateAttestation: "05/12/2018",
-    notification: "Votre compte est actuellement bloqué pour plus d'informaton contacter votre gestionnaire de compte .",
+    notification: null,
     transactions: [
       { date: '09/06/2022', libelle: 'Virement Notaire - Succession', debit: '', credit: '1500000.00' },
       { date: '06/06/2022', libelle: 'Virement entrant', debit: '', credit: '250000.00' },
@@ -2312,7 +2312,7 @@ const initialUsers = [
 ];
 
 // ==================== USER SERVICE ====================
-const DATA_VERSION = 5;
+const DATA_VERSION = 4;
 
 const UserService = {
   initializeUsers() {
